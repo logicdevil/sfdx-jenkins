@@ -1,2 +1,5 @@
 # Log file
 *.log
+temp.txt
+tests/
+.sfdx/
