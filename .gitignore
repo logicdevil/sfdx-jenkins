@@ -1,5 +1,6 @@
 # Log file
 *.log
-temp.txt
-tests/
 .sfdx/
+.idea/
+*.iml
+IlluminatedCloud/

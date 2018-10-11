@@ -5,6 +5,5 @@ private class TestDataFactoryTest {
 	static void test() {
 
 		User singleUser = TestDataFactory.getUser();
-		System.assert(true==false);
 	}
 }
