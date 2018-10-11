@@ -1,5 +1,6 @@
 public class TestDataFactory {
 
+
 	public static User getUser() {
 
 		Profile p = [SELECT Id FROM Profile WHERE Name = 'Standard User'];
