@@ -1,0 +1,16 @@
+<aura:component description="MapComponent" controller="MapController" implements="flexipage:availableForAllPageTypes, force:hasRecordId" access="global">
+
+	<ltng:require styles="{!$Resource.TomTomPackage + '/sdk/map.css'}"/>
+	<ltng:require styles="{!$Resource.TomTomPackage + '/elements.css'}"/>
+
+	<ltng:require scripts="{!$Resource.TomTomPackage + '/js/form.js'}"/>
+	<ltng:require scripts="{!$Resource.TomTomPackage + '/sdk/tomtom.min.js'}" afterScriptsLoaded="{!c.doInit}"/>
+
+	<aura:attribute name="startIcon" type="String" default="{!$Resource.TomTomPackage + '/img/start.png'}"/>
+	<aura:attribute name="endIcon" type="String" default="{!$Resource.TomTomPackage + '/img/end.png'}"/>
+
+	<div style="width: 100%; height: 500px; padding: .25rem;" class="slds-tabs_card">
+		<div id='TomTomMap' class="use-all-space slds-card_boundary"></div>
+	</div>
+
+</aura:component>
