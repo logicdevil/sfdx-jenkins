@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Api_Key__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Api_Key__cs.json"
+        ]
+    }
+]

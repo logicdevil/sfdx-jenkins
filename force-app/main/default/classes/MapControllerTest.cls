@@ -3,7 +3,9 @@ public class MapControllerTest {
 
 	static final String RECORD_ID_ACCOUNT = '001000000000000';
 	static final String EXPECTED_COORDINATES = '50.00000,50.00000';
+	@TestVisible
 	static final String EXPECTED_LATITUDE = '50.00000';
+	@TestVisible
 	static final String EXPECTED_LONGITUDE = '50.00000';
 
 	@TestSetup
@@ -14,8 +16,18 @@ public class MapControllerTest {
 	@IsTest
 	static void getTomTomApiKey_Positive_Test() {
 
-		MapController.queryBuilder = new QueryBuilder().buildStub().addStubToString('SELECT Id, Key__c FROM Api_Key__c').applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT Id, Key__c FROM Api_Key__c').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
 
 		Test.startTest();
 		String apiKey = MapController.getTomTomApiKey();
@@ -27,8 +39,19 @@ public class MapControllerTest {
 	@IsTest
 	static void getTomTomApiKey_KeyNotFound_Test() {
 
-		MapController.queryBuilder = new QueryBuilder().buildStub().addStubToString('SELECT Id, Key__c FROM Api_Key__c').applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT Id, Key__c FROM Api_Key__c').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
+
 		Boolean exceptionWasThrown = false;
 
 		Test.startTest();
@@ -46,8 +69,19 @@ public class MapControllerTest {
 	@IsTest
 	static void getTomTomApiKey_UnhandledError_Test() {
 
-		MapController.queryBuilder = new QueryBuilder().buildStub().addStubToString('SELECT Id, Key__c FROM Api_Key__c').applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT Id, Key__c FROM Api_Key__c').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
+
 		Boolean exceptionWasThrown = false;
 
 		Test.startTest();
@@ -65,11 +99,18 @@ public class MapControllerTest {
 	@IsTest
 	static void getRecordCoordinates_Positive_Test() {
 
-		MapController.queryBuilder = new QueryBuilder()
-				.buildStub()
-				.addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'')
-				.applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
 
 		Test.startTest();
 		String coordinates = MapController.getRecordCoordinates(RECORD_ID_ACCOUNT);
@@ -81,11 +122,19 @@ public class MapControllerTest {
 	@IsTest
 	static void getRecordCoordinates_HasNoAddress_Test() {
 
-		MapController.queryBuilder = new QueryBuilder()
-				.buildStub()
-				.addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'')
-				.applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
+
 		Boolean exceptionWasThrown = false;
 
 		Test.startTest();
@@ -103,11 +152,19 @@ public class MapControllerTest {
 	@IsTest
 	static void getRecordCoordinates_RecordDoesNotExist_Test() {
 
-		MapController.queryBuilder = new QueryBuilder()
-				.buildStub()
-				.addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'')
-				.applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
+
 		Boolean exceptionWasThrown = false;
 
 		Test.startTest();
@@ -125,11 +182,19 @@ public class MapControllerTest {
 	@IsTest
 	static void getRecordCoordinates_UnhandledError_Test() {
 
-		MapController.queryBuilder = new QueryBuilder()
-				.buildStub()
-				.addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'')
-				.applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT BillingLongitude, BillingLatitude FROM Account WHERE Id = \'' + RECORD_ID_ACCOUNT + '\'').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
+
 		Boolean exceptionWasThrown = false;
 
 		Test.startTest();
@@ -147,82 +212,23 @@ public class MapControllerTest {
 	@IsTest
 	static void getUserCoordinates_Test() {
 
-		MapController.queryBuilder = new QueryBuilder()
-				.buildStub()
-				.addStubToString('SELECT Longitude, Latitude FROM User WHERE Id = \'' + UserInfo.getUserId() + '\'')
-				.applyStub();
-		MapController.databaseProxy = (DatabaseProxy) Test.createStub(DatabaseProxy.class, new DatabaseProxyStub(StackTraceParser.getMethod()));
+		ClassFactory.clearStubTypesByClassNamesMap();
+		ClassFactory.putStubTypeByClassName(
+				'QueryBuilder',
+				new QueryBuilder().buildStub().addStubToString('SELECT Longitude, Latitude FROM User WHERE Id = \'' + UserInfo.getUserId() + '\'').applyStub()
+		);
+		ClassFactory.putStubTypeByClassName(
+				'DatabaseProxy',
+				(DatabaseProxy) Test.createStub(
+						DatabaseProxy.class,
+						new StubContainer.MapControllerTest_DatabaseProxyStub(StackTraceParser.getMethod())
+				)
+		);
 
 		Test.startTest();
 		String coordinates = MapController.getUserCoordinates();
 		Test.stopTest();
 
 		System.assertEquals(EXPECTED_COORDINATES, coordinates);
-	}
-
-	public class TestM implements System.StubProvider {
-		public Object handleMethodCall(Object stubbedObject, String stubbedMethodName,
-				Type returnType, List<Type> listOfParamTypes, List<String> listOfParamNames,
-				List<Object> listOfArgs) {
-			return null;
-		}
-	}
-
-	public class DatabaseProxyStub implements System.StubProvider {
-
-		String testMethodName;
-
-		public DatabaseProxyStub(String testMethodName) {
-			this.testMethodName = testMethodName;
-		}
-
-		public Object handleMethodCall(Object stubbedObject, String stubbedMethodName,
-				Type returnType, List<Type> listOfParamTypes, List<String> listOfParamNames,
-				List<Object> listOfArgs) {
-
-			if (stubbedMethodName == 'query') {
-				if (testMethodName.contains('getTomTomApiKey_UnhandledError')) {
-					throw new QueryException();
-				}
-				if (testMethodName.contains('getTomTomApiKey_KeyNotFound')) {
-					return new List<Api_Key__c>();
-				}
-				if (testMethodName.contains('getTomTomApiKey_Positive')) {
-					return new List<Api_Key__c>{
-							new Api_Key__c(Key__c = 'TestApiKey')
-					};
-				}
-				if (testMethodName.contains('getRecordCoordinates_Positive')) {
-					Account singleAccount = TestDataFactory.getAccount();
-					singleAccount.put(MapController.COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE.get('Account').get('Latitude'), Decimal.valueOf(EXPECTED_LATITUDE));
-					singleAccount.put(MapController.COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE.get('Account').get('Longitude'), Decimal.valueOf(EXPECTED_LONGITUDE));
-					return new List<Account>{
-							singleAccount
-					};
-				}
-				if (testMethodName.contains('getRecordCoordinates_HasNoAddress')) {
-					Account singleAccount = TestDataFactory.getAccount();
-					return new List<Account>{
-							singleAccount
-					};
-				}
-				if (testMethodName.contains('getRecordCoordinates_RecordDoesNotExist')) {
-					return new List<Account>();
-				}
-				if (testMethodName.contains('getRecordCoordinates_UnhandledError')) {
-					throw new QueryException();
-				}
-				if (testMethodName.contains('getUserCoordinates')) {
-					User singleUser = TestDataFactory.getUser();
-					singleUser.put(MapController.COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE.get('User').get('Latitude'), Decimal.valueOf(EXPECTED_LATITUDE));
-					singleUser.put(MapController.COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE.get('User').get('Longitude'), Decimal.valueOf(EXPECTED_LONGITUDE));
-					return new List<User>{
-							singleUser
-					};
-				}
-			}
-
-			return null;
-		}
 	}
 }

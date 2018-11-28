@@ -1,10 +1,6 @@
 public with sharing class MapController {
 
 	@TestVisible
-	private static QueryBuilder queryBuilder = new QueryBuilder();
-	@TestVisible
-	private static DatabaseProxy databaseProxy = new DatabaseProxy();
-	@TestVisible
 	private static final Map<String, Map<String, String>> COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE = new Map<String, Map<String, String>>{
 			'Account' => new Map<String, String>{
 					'Latitude' => 'BillingLatitude',
@@ -20,14 +16,15 @@ public with sharing class MapController {
 			}
 	};
 
-
-
 	@AuraEnabled
 	public static String getTomTomApiKey() {
 
 		List<Api_Key__c> apiKeys;
+
+		QueryBuilder queryBuilder = (QueryBuilder)ClassFactory.newInstance(QueryBuilder.class);
+		DatabaseProxy databaseProxy = (DatabaseProxy)ClassFactory.newInstance(DatabaseProxy.class);
+
 		String query = queryBuilder
-				.newQuery()
 				.addFrom('Api_Key__c')
 				.addFields(new List<String>{'Id', 'Key__c'})
 				.toString();
@@ -48,13 +45,14 @@ public with sharing class MapController {
 	@AuraEnabled
 	public static String getRecordCoordinates(String recordId) {
 
+		QueryBuilder queryBuilder = (QueryBuilder)ClassFactory.newInstance(QueryBuilder.class);
+		DatabaseProxy databaseProxy = (DatabaseProxy) ClassFactory.newInstance(DatabaseProxy.class);
 		String recordTypeName = Id.valueOf(recordId).getSobjectType().getDescribe().getName();
 		String recordLatitudeFieldName = COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE.get(recordTypeName).get('Latitude');
 		String recordLongitudeFieldName = COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE.get(recordTypeName).get('Longitude');
 		List<SObject> records;
 
 		String query = queryBuilder
-				.newQuery()
 				.addFrom(recordTypeName)
 				.addFields(new Set<String>{recordLatitudeFieldName, recordLongitudeFieldName})
 				.addConditions()
