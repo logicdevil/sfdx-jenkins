@@ -1,0 +1,15 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountRef1"
+            },
+            "Name": "Test Account",
+            "BillingStreet": "Primakova",
+            "BillingCountry": "Ukraine",
+            "BillingPostalCode": "14000",
+            "BillingCity": "Chernihiv"
+        }
+    ]
+}

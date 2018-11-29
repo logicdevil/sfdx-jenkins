@@ -1,5 +1,5 @@
 <aura:component description="MapComponent" controller="MapController"
-				implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+				 access="global">
 
 	<ltng:require styles="{!$Resource.TomTomPackage + '/sdk/map.css'}"/>
 	<ltng:require styles="{!$Resource.TomTomPackage + '/elements.css'}"/>
@@ -10,6 +10,8 @@
 	<!--<aura:handler name="init" value="this" action="{!c.doInit}"/>-->
 	<aura:attribute name="startIcon" type="String" default="{!$Resource.TomTomPackage + '/img/start.png'}"/>
 	<aura:attribute name="endIcon" type="String" default="{!$Resource.TomTomPackage + '/img/end.png'}"/>
+	<aura:attribute name="routeInformation" type="Object" default="{}"/>
+	<aura:attribute name="recordId" type="String" default=""/>
 	<aura:attribute name="errorMessage" type="String" default=""/>
 	<aura:attribute name="showSpinner" type="Boolean" default="true"/>
 

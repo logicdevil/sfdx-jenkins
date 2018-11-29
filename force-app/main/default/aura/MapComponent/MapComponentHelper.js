@@ -9,6 +9,26 @@
 			return map;
 		},
 
+		processRouting : function (component, map, feature, self) {
+			self.addMarkers(component, map, feature);
+			self.fillRouteInformation(component, map, feature);
+		},
+
+		fillRouteInformation : function (component, map, feature) {
+
+			if(component.isValid()) {
+
+				var summary = feature.properties.summary;
+				var routeInformation = {};
+
+				routeInformation.distance = tomtom.unitFormatConverter.formatDistance(summary.lengthInMeters);
+				routeInformation.estimatedTravelTime = tomtom.unitFormatConverter.formatTime(summary.travelTimeInSeconds);
+				routeInformation.trafficDelay = tomtom.unitFormatConverter.formatTime(summary.trafficDelayInSeconds);
+
+				component.set('v.routeInformation', routeInformation);
+			}
+		},
+
 		addMarkers : function (component, map, feature) {
 
 			var endIcon = tomtom.L.icon({
@@ -30,8 +50,8 @@
 				startPoint = feature.geometry.coordinates[0].reverse();
 				endPoint = feature.geometry.coordinates.slice(-1)[0].reverse();
 			}
-			tomtom.L.marker(startPoint, {icon : startIcon}).addTo(map);
-			tomtom.L.marker(endPoint, {icon : endIcon}).addTo(map);
+			tomtom.L.marker(startPoint, {icon : endIcon}).addTo(map);
+			tomtom.L.marker(endPoint, {icon : startIcon}).addTo(map);
 		},
 
 		fillMap : function (component, map, apiKey, startCoordinates, endCoordinates) {
@@ -44,7 +64,7 @@
 				.go().then(function (routeJson) {
 				var route = tomtom.L.geoJson(routeJson, {
 					onEachFeature : function (feature) {
-						self.addMarkers.call(this, component, map, feature);
+						self.processRouting.call(this, component, map, feature, self);
 					},
 					style : {color : 'red', opacity : 0.8}
 				}).addTo(map);

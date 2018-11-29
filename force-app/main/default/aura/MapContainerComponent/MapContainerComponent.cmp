@@ -1,0 +1,9 @@
+<aura:component description="MapContainerComponent" implements="flexipage:availableForAllPageTypes,force:hasRecordId">
+
+	<aura:attribute name="routeInformation" type="Object" default="{}"/>
+
+	<lightning:card title="Route Information" iconName="">
+	</lightning:card>
+	<c:MapComponent routeInformation="{!v.routeInformation}" recordId="{!v.recordId}"/>
+
+</aura:component>
