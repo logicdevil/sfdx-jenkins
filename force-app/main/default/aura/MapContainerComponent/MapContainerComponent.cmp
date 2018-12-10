@@ -1,9 +1,52 @@
 <aura:component description="MapContainerComponent" implements="flexipage:availableForAllPageTypes,force:hasRecordId">
 
 	<aura:attribute name="routeInformation" type="Object" default="{}"/>
+	<aura:attribute name="isReversedDirection" type="Boolean" default="false"/>
+	<aura:attribute name="directionInformation" type="String" default="Initializing..."/>
 
-	<lightning:card title="Route Information" iconName="">
+	<lightning:card title="Route Information" iconName="action:map" class="route_card">
+		<aura:set attribute="actions">
+			<lightning:buttonIcon iconName="utility:sort" variant="border-filled" alternativeText="Reverse direction" onclick="{!c.handleReverseDirection}"/>
+		</aura:set>
+
+		<div class="route_direction_information need_to_be_highlighted">
+			{!v.directionInformation}
+		</div>
+
+		<div style="display: inline-flex; width: 100%; padding: 0 2%">
+			<div class="route_data_card">
+				<div class="route_data_title">
+					Distance
+				</div>
+				<div class="route_data_information need_to_be_highlighted">
+						{!v.routeInformation.distance}
+				</div>
+			</div>
+			<div style="margin: 0 2%" class="route_data_card">
+				<div class="route_data_title">
+					Estimated Travel Time
+				</div>
+				<div class="route_data_information need_to_be_highlighted">
+						{!v.routeInformation.estimatedTravelTime}
+				</div>
+			</div>
+			<div class="route_data_card">
+				<div class="route_data_title">
+					Traffic Delay
+				</div>
+				<div class="route_data_information need_to_be_highlighted">
+						{!v.routeInformation.trafficDelay}
+				</div>
+			</div>
+		</div>
+
 	</lightning:card>
-	<c:MapComponent routeInformation="{!v.routeInformation}" recordId="{!v.recordId}"/>
+
+	<c:MapComponent
+			routeInformation="{!v.routeInformation}"
+			recordId="{!v.recordId}"
+			isReversedDirection="{!v.isReversedDirection}"
+			directionInformation="{!v.directionInformation}"
+	/>
 
 </aura:component>

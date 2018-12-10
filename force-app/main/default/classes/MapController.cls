@@ -21,12 +21,14 @@ public with sharing class MapController {
 
 		List<Api_Key__c> apiKeys;
 
-		QueryBuilder queryBuilder = (QueryBuilder)ClassFactory.newInstance(QueryBuilder.class);
-		DatabaseProxy databaseProxy = (DatabaseProxy)ClassFactory.newInstance(DatabaseProxy.class);
+		QueryBuilder queryBuilder = (QueryBuilder) ClassFactory.newInstance(QueryBuilder.class);
+		DatabaseProxy databaseProxy = (DatabaseProxy) ClassFactory.newInstance(DatabaseProxy.class);
 
 		String query = queryBuilder
 				.addFrom('Api_Key__c')
-				.addFields(new List<String>{'Id', 'Key__c'})
+				.addFields(new List<String>{
+						'Id', 'Key__c'
+				})
 				.toString();
 
 		try {
@@ -45,7 +47,7 @@ public with sharing class MapController {
 	@AuraEnabled
 	public static String getRecordCoordinates(String recordId) {
 
-		QueryBuilder queryBuilder = (QueryBuilder)ClassFactory.newInstance(QueryBuilder.class);
+		QueryBuilder queryBuilder = (QueryBuilder) ClassFactory.newInstance(QueryBuilder.class);
 		DatabaseProxy databaseProxy = (DatabaseProxy) ClassFactory.newInstance(DatabaseProxy.class);
 		String recordTypeName = Id.valueOf(recordId).getSobjectType().getDescribe().getName();
 		String recordLatitudeFieldName = COORDINATES_FIELD_NAMES_BY_OBJECT_TYPE.get(recordTypeName).get('Latitude');
@@ -54,7 +56,9 @@ public with sharing class MapController {
 
 		String query = queryBuilder
 				.addFrom(recordTypeName)
-				.addFields(new Set<String>{recordLatitudeFieldName, recordLongitudeFieldName})
+				.addFields(new Set<String>{
+						recordLatitudeFieldName, recordLongitudeFieldName
+				})
 				.addConditions()
 				.add(new QueryBuilder.CompareCondition('Id')
 						.eq(recordId))
@@ -82,5 +86,39 @@ public with sharing class MapController {
 	public static String getUserCoordinates() {
 
 		return getRecordCoordinates(UserInfo.getUserId());
+	}
+
+	@AuraEnabled
+	public static String getRecordName(String recordId) {
+
+		QueryBuilder queryBuilder = (QueryBuilder) ClassFactory.newInstance(QueryBuilder.class);
+		DatabaseProxy databaseProxy = (DatabaseProxy) ClassFactory.newInstance(DatabaseProxy.class);
+		String recordTypeName = Id.valueOf(recordId).getSobjectType().getDescribe().getName();
+		List<SObject> records;
+
+		String query = queryBuilder
+				.addFrom(recordTypeName)
+				.addFields('Name')
+				.addConditions()
+				.add(new QueryBuilder.CompareCondition('Id')
+						.eq(recordId))
+				.endConditions()
+				.toString();
+
+		try {
+			records = databaseProxy.query(query);
+		} catch (Exception e) {
+			throw new AuraHandledException(Label.Unhandled_Error + ' ' + Label.Contact_Administrator);
+		}
+
+		if (records == null || records.isEmpty()) {
+			throw new AuraHandledException(Label.Unhandled_Error + ' ' + Label.Contact_Administrator);
+		}
+
+		if (records[0].get('Name') == null) {
+			throw new AuraHandledException(Label.Record_Has_No_Name);
+		}
+
+		return String.valueOf(records[0].get('Name'));
 	}
 }

@@ -1,0 +1,34 @@
+.THIS.route_card > header {
+	border-bottom: 1px solid rgb(221, 219, 218);
+	padding: 0 0 .75rem 0;
+	margin: 3% 2% 0 2%;
+}
+
+.THIS .route_direction_information {
+	display: block;
+	width: 96%;
+	padding: 2% 0;
+	margin: 0 2% 3% 2%;
+	border-bottom: 1px solid rgb(221, 219, 218);
+	text-align: center;
+}
+
+.THIS .route_data_card {
+	display: block;
+	border: 1px solid rgb(221, 219, 218);
+	border-radius: .25rem;
+	width: 32%;
+}
+
+.THIS .route_data_title {
+	color: rgb(62, 62, 60);
+	font-size: medium;
+	text-align: center;
+	background-color: rgb(243, 242, 242);
+	padding: 5% 0;
+}
+
+.THIS .route_data_information {
+	text-align: center;
+	padding: 6% 0;
+}

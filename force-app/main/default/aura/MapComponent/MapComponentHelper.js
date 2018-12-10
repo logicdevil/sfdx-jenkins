@@ -1,5 +1,79 @@
 (
 	{
+		getDataAndFillMap : function (component) {
+
+			var self = this;
+			self.clearErrorMessage(component);
+
+			Promise.all([
+				self.serverAction(component, 'getTomTomApiKey'),
+				self.serverAction(component, 'getRecordCoordinates', '{ "recordId": "' + component.get('v.recordId') + '" }'),
+				self.serverAction(component, 'getUserCoordinates'),
+				self.serverAction(component, 'getRecordName', '{ "recordId": "' + component.get('v.recordId') + '" }')
+			]).then(function (results) {
+				if (component.isValid()) {
+					self.hideSpinner(component);
+
+					var map = component.get('v.map');
+					if (!map) {
+						map = self.initMap(component, self, results[0]);
+						component.set('v.map', map);
+					}
+
+					var routeInformation = {};
+					routeInformation.recordCoordinates = results[1];
+					routeInformation.userCoordinates = results[2];
+					routeInformation.recordName = results[3];
+					component.set('v.routeInformation', routeInformation);
+
+					self.fillMap(component, map, results[0], routeInformation.userCoordinates, routeInformation.recordCoordinates);
+					component.set('v.directionInformation', self.getDirectionInformation(component));
+				}
+			}).catch(function (errors) {
+				if (component.isValid()) {
+					self.hideSpinner(component);
+					self.handleErrorResponse(component, errors);
+					console.log('Errors: ' + errors.toString());
+				}
+			});
+		},
+
+		reverseDirection : function (component) {
+
+			var self = this;
+			self.clearErrorMessage(component);
+
+			Promise.all([
+				self.serverAction(component, 'getTomTomApiKey')
+			]).then(function (results) {
+				if (component.isValid()) {
+
+					var routeInformation = component.get('v.routeInformation');
+					var map = component.get('v.map');
+					if (!map) {
+						map = self.initMap(component, self, results[0]);
+						component.set('v.map', map);
+
+					}
+
+					if (component.get('v.isReversedDirection')) {		//draw a route for reversed direction
+						self.fillMap(component, map, results[0], routeInformation.recordCoordinates, routeInformation.userCoordinates);
+					} else {
+						self.fillMap(component, map, results[0], routeInformation.userCoordinates, routeInformation.recordCoordinates);
+					}
+
+					component.set('v.directionInformation', self.getDirectionInformation(component));
+					self.hideSpinner(component);
+				}
+			}).catch(function (errors) {
+				if (component.isValid()) {
+					self.handleErrorResponse(component, errors);
+					console.log('Errors: ' + errors.toString());
+					self.hideSpinner(component);
+				}
+			});
+		},
+
 		initMap : function (component, helper, apiKey) {
 
 			tomtom.setProductInfo('DEMO APP', '0.1');
@@ -16,10 +90,10 @@
 
 		fillRouteInformation : function (component, map, feature) {
 
-			if(component.isValid()) {
+			if (component.isValid()) {
 
 				var summary = feature.properties.summary;
-				var routeInformation = {};
+				var routeInformation = component.get('v.routeInformation');
 
 				routeInformation.distance = tomtom.unitFormatConverter.formatDistance(summary.lengthInMeters);
 				routeInformation.estimatedTravelTime = tomtom.unitFormatConverter.formatTime(summary.travelTimeInSeconds);
@@ -50,6 +124,7 @@
 				startPoint = feature.geometry.coordinates[0].reverse();
 				endPoint = feature.geometry.coordinates.slice(-1)[0].reverse();
 			}
+
 			tomtom.L.marker(startPoint, {icon : endIcon}).addTo(map);
 			tomtom.L.marker(endPoint, {icon : startIcon}).addTo(map);
 		},
@@ -62,12 +137,19 @@
 				traffic : false
 			}).locations(startCoordinates + ':' + endCoordinates)
 				.go().then(function (routeJson) {
-				var route = tomtom.L.geoJson(routeJson, {
+				var route = tomtom.L.geoJson(routeJson, {		//draw a route
 					onEachFeature : function (feature) {
 						self.processRouting.call(this, component, map, feature, self);
 					},
 					style : {color : 'red', opacity : 0.8}
 				}).addTo(map);
+
+				var lastRoute = component.get('v.lastRoute');		//if the route was drawn - remove it from the map and draw a new one
+				if (lastRoute != null) {
+					map.removeLayer(lastRoute);
+				}
+				component.set('v.lastRoute', route);
+
 				map.fitBounds(route.getBounds(), {padding : [5, 5]});
 			});
 		},
@@ -118,8 +200,21 @@
 			});
 		},
 
+		getDirectionInformation : function (component) {
+
+			if(component.get('v.isReversedDirection')){
+				return 'The route from the address of ' + component.get('v.routeInformation').recordName + ' to your address.';
+			} else {
+				return 'The route from your address to the address of ' + component.get('v.routeInformation').recordName + '.';
+			}
+		},
+
 		hideSpinner : function (component) {
 			component.set('v.showSpinner', false);
-		}
+		},
+
+		showSpinner : function (component) {
+			component.set('v.showSpinner', true);
+		},
 	}
 )
