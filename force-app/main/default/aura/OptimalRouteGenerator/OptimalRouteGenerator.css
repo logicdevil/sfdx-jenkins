@@ -11,8 +11,17 @@
 .THIS .account_tile {
 	display: block;
 	width: 96%;
-	height: 40px;
+	height: 60px;
 	margin: 1% 2%;
-	border: 2px solid rgb(120, 150, 120);
-	border-radius: .25rem;
+}
+
+.THIS.error_message_container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	font-size: 2rem;
+	color: red;
+	background-color: rgba(255, 255, 255, 0.75);
 }

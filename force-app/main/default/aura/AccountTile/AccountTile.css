@@ -1,0 +1,25 @@
+.THIS.tile_container {
+	width: 100%;
+	height: 100%;
+	border: 2px solid rgb(120, 150, 120);
+	border-radius: .25rem;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.THIS .phone_email_container {
+	display: block;
+	text-align: right;
+	margin: auto 2% auto auto;
+}
+
+.THIS .description_button_container {
+	display: flex;
+	margin: auto 0 auto 2%;
+}
+
+.THIS .name_container {
+	color: rgb(40, 40, 40);
+	display: flex;
+	margin: auto 2% auto 4%;;
+}

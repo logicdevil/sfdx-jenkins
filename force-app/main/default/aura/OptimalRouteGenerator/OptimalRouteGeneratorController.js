@@ -2,21 +2,22 @@
 	{
 		doInit : function (component, event, helper) {
 
-
-			component.set("v.recordsIds", ["qwe", "asd", "xcv"]);
-			/*Promise.all([
-				self.serverAction(component, 'getRouteFor')
+			component.set("v.droppedRecords", []);
+			Promise.all([
+				helper.serverAction(component, 'getRecordsMap', '{"sObjectName":"Account"}')
 			]).then(function (results) {
 				if (component.isValid()) {
-					self.hideSpinner(component);
+					component.set('v.recordsByIds', results[0]);
+					component.set('v.records', Object.values(results[0]));
+					helper.hideSpinner(component);
 				}
 			}).catch(function (errors) {
 				if (component.isValid()) {
-					self.handleErrorResponse(component, errors);
+					helper.handleErrorResponse(component, errors);
 					console.log('Errors: ' + errors.toString());
-					self.hideSpinner(component);
+					helper.hideSpinner(component);
 				}
-			});*/
+			});
 		},
 
 		handleDrop : function (component, event, helper) {
@@ -26,32 +27,33 @@
 			var droppedRecords = component.get("v.droppedRecords");
 			var recordsByIds = component.get("v.recordsByIds");
 			var recordId = component.get("v.pickedRecordId");
-			droppedRecords.add(recordsByIds[recordId]);
+			droppedRecords.push(recordsByIds[recordId]);
 			component.set("v.droppedRecords", droppedRecords);
-
-			var dropZone = document.getElementById('drop_zone');
-			dropZone.style.setProperty('border', 'none');
+			helper.setStyleProperty(document, 'drop_zone', 'border', 'none');
 		},
 
 		handleDragOver : function (component, event, helper) {
 
 			event.preventDefault();
-
-			var dropZone = document.getElementById('drop_zone');
-			dropZone.style.setProperty('border', '2px solid red');
+			helper.setStyleProperty(document, 'drop_zone', 'border', '2px solid red');
 		},
 
 		handleDragStart : function (component, event, helper) {
 
 			component.set("v.pickedRecordId", event.target.id);
+			helper.setStyleProperty(document, event.target.id, 'background-color', 'rgba(0, 220, 0, 0.4)');
 		},
 
 		handleDragLeave : function (component, event, helper) {
 
 			event.preventDefault();
+			helper.setStyleProperty(document, 'drop_zone', 'border', 'none');
+		},
 
-			var dropZone = document.getElementById('drop_zone');
-			dropZone.style.setProperty('border', 'none');
+		handleDragEnd : function (component, event, helper) {
+
+			event.preventDefault();
+			helper.setStyleProperty(document, event.target.id, 'background-color', 'unset');
 		},
 	}
 )

@@ -2,28 +2,57 @@
 				implements="force:appHostable">
 
 	<aura:attribute name="recordsByIds" type="Map" default=""/>
-	<aura:attribute name="recordsIds" type="List" default=""/>
-	<aura:attribute name="droppedRecords" type="Object"/>
+	<aura:attribute name="records" type="List" default=""/>
+	<aura:attribute name="droppedRecords" type="List"/>
 	<aura:attribute name="pickedRecordId" type="String"/>
+
+	<aura:attribute name="errorMessage" type="String" default=""/>
+	<aura:attribute name="showSpinner" type="Boolean" default="false"/>
 
 	<aura:handler name="init" value="this" action="{!c.doInit}"/>
 
-	<div style="display: inline-flex; width: 100%">
+	<!--				Error messages container				-->
 
-		<lightning:card title="Accounts" class="accounts_card" iconName="standard:person_account">
-			<aura:iteration items="{!v.recordsIds}" var="record">
-				<div id="record.Id" class="account_tile" draggable="true" ondragstart="{!c.handleDragStart}">{!record}</div>
-			</aura:iteration>
-		</lightning:card>
+	<div class="error_message_container slds-align_absolute-center"
+		 style="{!(v.errorMessage)? 'display:flex' : 'display:none'}">
+			{!v.errorMessage}
+	</div>
 
-		<lightning:card title="Route Generator" class="route_generator_card" iconName="standard:address">
-			<div id="drop_zone" ondrop="{!c.handleDrop}" ondragover="{!c.handleDragOver}"
-				 ondragleave="{!c.handleDragLeave}"
-				 style="width: 100%; height: 500px">
-					{!v.Test}
+	<!--				Main content block				-->
+
+	<div style="{!(v.showSpinner || v.errorMessage)? 'display:none' : 'display:block'}">
+		<div style="display: inline-flex; width: 100%">
+
+			<lightning:card title="Accounts" class="accounts_card" iconName="standard:person_account">
+				<aura:iteration items="{!v.records}" var="record" indexVar="index">
+					<div id="{!record.Id}" class="account_tile" draggable="true" ondragstart="{!c.handleDragStart}"
+						 ondragend="{!c.handleDragEnd}">
+						<c:AccountTile record="{!record}"/>
+					</div>
+				</aura:iteration>
+			</lightning:card>
+
+			<lightning:card title="Route Generator" class="route_generator_card" iconName="standard:address">
+				<div id="drop_zone" ondrop="{!c.handleDrop}" ondragover="{!c.handleDragOver}"
+					 ondragleave="{!c.handleDragLeave}"
+					 style="width: 100%; height: 500px">
+				</div>
+			</lightning:card>
+
+		</div>
+	</div>
+
+	<!--				Spinner block				-->
+
+	<div style="{!(v.showSpinner ? 'display:block' : 'display:none')}">
+		<div class="slds-spinner_container slds-show" aura:id="imgSpinner">
+			<div class="slds-spinner--brand slds-spinner slds-spinner--medium" role="alert"
+				 style="top: 50%; left: 50%;">
+				<span class="slds-assistive-text">Loading</span>
+				<div class="slds-spinner__dot-a"></div>
+				<div class="slds-spinner__dot-b"></div>
 			</div>
-		</lightning:card>
-
+		</div>
 	</div>
 
 </aura:component>

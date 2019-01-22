@@ -1,5 +1,28 @@
 (
 	{
+		setStyleProperty : function (document, elementId, propertyName, propertyValue) {
+
+			var element = document.getElementById(elementId);
+			element.style.setProperty(propertyName, propertyValue);
+		},
+
+		hideSpinner : function (component) {
+			component.set('v.showSpinner', false);
+		},
+
+		handleErrorResponse : function (component, errors) {
+
+			var errorMessage;
+
+			if (errors && errors[0] && errors[0].message) {
+				errorMessage = errors[0].message;
+			} else {
+				errorMessage = $A.get('$Label.c.Unhandled_Error') + ' ' + $A.get('$Label.c.Contact_Administrator');
+			}
+
+			component.set('v.errorMessage', errorMessage);
+		},
+
 		serverAction : function (component, method, params) {
 
 			var self = this;
