@@ -11,7 +11,7 @@ public with sharing class OptimalRouteGeneratorController {
 				.addField('Id')
 				.addField('Name')
 				.addField('Phone')
-				.addField('Email')
+				.addField('Industry')
 				.setLimit(10)
 				.toString();
 

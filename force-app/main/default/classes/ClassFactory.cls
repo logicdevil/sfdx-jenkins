@@ -53,10 +53,6 @@ public with sharing class ClassFactory {
 		return result;
 	}
 
-	private class InvalidClass {
-
-	}
-
 	public class ClassForTestingClassFactory {
 		public String testingString;
 		public ClassForTestingClassFactory () {

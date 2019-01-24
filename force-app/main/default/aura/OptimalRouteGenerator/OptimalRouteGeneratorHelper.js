@@ -6,6 +6,18 @@
 			element.style.setProperty(propertyName, propertyValue);
 		},
 
+		removeClass : function (document, elementId, className) {
+
+			var element = document.getElementById(elementId);
+			element.classList.remove(className);
+		},
+
+		addClass : function (document, elementId, className) {
+
+			var element = document.getElementById(elementId);
+			element.classList.add(className);
+		},
+
 		hideSpinner : function (component) {
 			component.set('v.showSpinner', false);
 		},

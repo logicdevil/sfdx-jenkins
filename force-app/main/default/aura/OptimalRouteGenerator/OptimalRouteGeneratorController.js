@@ -23,7 +23,6 @@
 		handleDrop : function (component, event, helper) {
 
 			event.preventDefault();
-
 			var droppedRecords = component.get("v.droppedRecords");
 			var recordsByIds = component.get("v.recordsByIds");
 			var recordId = component.get("v.pickedRecordId");
@@ -41,7 +40,8 @@
 		handleDragStart : function (component, event, helper) {
 
 			component.set("v.pickedRecordId", event.target.id);
-			helper.setStyleProperty(document, event.target.id, 'background-color', 'rgba(0, 220, 0, 0.4)');
+			helper.removeClass(document, event.target.id, 'account_tile');
+			helper.addClass(document, event.target.id, 'account_tile_selected');
 		},
 
 		handleDragLeave : function (component, event, helper) {
@@ -53,7 +53,8 @@
 		handleDragEnd : function (component, event, helper) {
 
 			event.preventDefault();
-			helper.setStyleProperty(document, event.target.id, 'background-color', 'unset');
+			helper.removeClass(document, event.target.id, 'account_tile_selected');
+			helper.addClass(document, event.target.id, 'account_tile');
 		},
 	}
 )

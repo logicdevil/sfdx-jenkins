@@ -1,0 +1,2356 @@
+[
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948453,
+            "changeTime": 1548148948453,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948454,
+            "changeTime": 1548148948454,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949920,
+            "changeTime": 1548148949920,
+            "contentHash": "b91e1cbeb7e375fbd1b7ded698184d3cf1b269f8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948691,
+            "changeTime": 1548148948691,
+            "contentHash": "fc8e3476d1cb75fb3f58dc385d686acad52d762d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548153949519,
+            "changeTime": 1548148948486,
+            "contentHash": "47c90a835804c32033c281e1b283b91df9b71dfc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile\\AccountTile.cmp",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile\\AccountTile.cmp",
+            "isDirectory": false,
+            "size": 613,
+            "modifiedTime": 1548152534203,
+            "changeTime": 1548152534221,
+            "contentHash": "074f3087e40fa41397a0bf9df96e72834b107c4f",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile\\AccountTile.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile\\AccountTile.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1548148948478,
+            "changeTime": 1548148948478,
+            "contentHash": "f463928c09fcd21a58127befaa1e55547b42a408",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile\\AccountTile.css",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AccountTile\\AccountTile.css",
+            "isDirectory": false,
+            "size": 691,
+            "modifiedTime": 1548153949506,
+            "changeTime": 1548153949519,
+            "contentHash": "8f1a16535e51d69677fcd847d6cff55f915b7fdb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AuraTestApplication",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AuraTestApplication",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948511,
+            "changeTime": 1548148948511,
+            "contentHash": "069e9689b4413232919bf441ecd44a0a371ce395",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AuraTestApplication\\AuraTestApplication.app",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AuraTestApplication\\AuraTestApplication.app",
+            "isDirectory": false,
+            "size": 139,
+            "modifiedTime": 1548148948497,
+            "changeTime": 1548148948497,
+            "contentHash": "5c30fec6e34c7088c56e0714c469c43a45f07b79",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AuraTestApplication\\AuraTestApplication.app-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\AuraTestApplication\\AuraTestApplication.app-meta.xml",
+            "isDirectory": false,
+            "size": 218,
+            "modifiedTime": 1548148948512,
+            "changeTime": 1548148948512,
+            "contentHash": "48bc1a5ada025afae9c7c10fb5ce68bb012ab581",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948734,
+            "changeTime": 1548148948734,
+            "contentHash": "d036229286265cff861f03b0b3f633300644ac7e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.cmp",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.cmp",
+            "isDirectory": false,
+            "size": 415,
+            "modifiedTime": 1548148948701,
+            "changeTime": 1548148948701,
+            "contentHash": "10530de43abaff37b937c4e04a42d2793921e7f4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 207,
+            "modifiedTime": 1548148948715,
+            "changeTime": 1548148948715,
+            "contentHash": "6aacb35676ae234565bce215d96d67bb0061f81f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.css",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.css",
+            "isDirectory": false,
+            "size": 235,
+            "modifiedTime": 1548148948723,
+            "changeTime": 1548148948723,
+            "contentHash": "ef75605db8ccd21bb268c889771de6d8795c9a13",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.design",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\flowTest\\flowTest.design",
+            "isDirectory": false,
+            "size": 105,
+            "modifiedTime": 1548148948738,
+            "changeTime": 1548148948738,
+            "contentHash": "56a947cf5a20366edeca00608587a754ea60ec09",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948573,
+            "changeTime": 1548148948573,
+            "contentHash": "667810185d8e884ea75e45b5a46f24ff170e12e8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponent.cmp",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponent.cmp",
+            "isDirectory": false,
+            "size": 2280,
+            "modifiedTime": 1548148948522,
+            "changeTime": 1548148948522,
+            "contentHash": "f60dfda0aa2fef7e0c53cd65bb836434613c27fe",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponent.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 211,
+            "modifiedTime": 1548148948536,
+            "changeTime": 1548148948536,
+            "contentHash": "f5d614e2d35ba5605f1950d551f443685988affe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponent.css",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponent.css",
+            "isDirectory": false,
+            "size": 47,
+            "modifiedTime": 1548148948547,
+            "changeTime": 1548148948547,
+            "contentHash": "07236dcc5bf9a80ca62a16f17ff422d43b87e7b3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponentController.js",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponentController.js",
+            "isDirectory": false,
+            "size": 306,
+            "modifiedTime": 1548148948557,
+            "changeTime": 1548148948557,
+            "contentHash": "72c21098c88476833afc0492fdd44de21fc1f882",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponentHelper.js",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapComponent\\MapComponentHelper.js",
+            "isDirectory": false,
+            "size": 7048,
+            "modifiedTime": 1548148948574,
+            "changeTime": 1548148948574,
+            "contentHash": "e7441639ab9976a70678fac737bb5e21550dabaf",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948635,
+            "changeTime": 1548148948635,
+            "contentHash": "72557413edcf21b6f908351b72c579312cd7faae",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponent.cmp",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponent.cmp",
+            "isDirectory": false,
+            "size": 1803,
+            "modifiedTime": 1548148948586,
+            "changeTime": 1548148948586,
+            "contentHash": "bb06e5b3ce0f19d3ed963eed7467d693902151a9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponent.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponent.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 220,
+            "modifiedTime": 1548148948599,
+            "changeTime": 1548148948599,
+            "contentHash": "b6d8e6f10c6b35316e77c4a4106d5a39fe9104cc",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponent.css",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponent.css",
+            "isDirectory": false,
+            "size": 670,
+            "modifiedTime": 1548148948612,
+            "changeTime": 1548148948612,
+            "contentHash": "899b708242bd67cbac26f82133dafcdf731cf6b4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponentController.js",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponentController.js",
+            "isDirectory": false,
+            "size": 274,
+            "modifiedTime": 1548148948622,
+            "changeTime": 1548148948622,
+            "contentHash": "0826beb2dec974cf87e7721bb456134852f56427",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponentHelper.js",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\MapContainerComponent\\MapContainerComponentHelper.js",
+            "isDirectory": false,
+            "size": 903,
+            "modifiedTime": 1548148948636,
+            "changeTime": 1548148948636,
+            "contentHash": "5b119fc6dc80407bc16e57a6df36030c8483d500",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548154882605,
+            "changeTime": 1548148948689,
+            "contentHash": "d0a637a8a93d327db240e8ecef6358edd3fcf32d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGenerator.cmp",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGenerator.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2129,
+            "modifiedTime": 1548322622554,
+            "changeTime": 1548322622554,
+            "contentHash": "d35a2135abe6fb94027beef4e1d1fc00fb61609b"
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGenerator.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGenerator.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 220,
+            "modifiedTime": 1548148948658,
+            "changeTime": 1548148948658,
+            "contentHash": "fbf57c7b068af8d6e40bf2662423221fd14dfdf4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGenerator.css",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGenerator.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 556,
+            "modifiedTime": 1548322622525,
+            "changeTime": 1548322622525,
+            "contentHash": "f391fddba6a78d6255489e3574df3f1717693f28"
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGeneratorController.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGeneratorController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1874,
+            "modifiedTime": 1548322622548,
+            "changeTime": 1548322622548,
+            "contentHash": "b86cb0226cbc9065615c2cbe75ecce38f2c4bdf2"
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGeneratorHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\aura\\OptimalRouteGenerator\\OptimalRouteGeneratorHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 1602,
+            "modifiedTime": 1548322622577,
+            "changeTime": 1548322622577,
+            "contentHash": "238e9d21457e7ffad578c553b284098056f49790"
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548151793646,
+            "changeTime": 1548148949084,
+            "contentHash": "d3b77587f419ec00fe07cf7049bc2765de90cecb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountService.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountService.cls",
+            "isDirectory": false,
+            "size": 482,
+            "modifiedTime": 1548148948751,
+            "changeTime": 1548148948751,
+            "contentHash": "afe5c94f893572725de73739dad8270ff69dae97",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountService.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948762,
+            "changeTime": 1548148948762,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountTriggerHandler.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountTriggerHandler.cls",
+            "isDirectory": false,
+            "size": 169,
+            "modifiedTime": 1548148948772,
+            "changeTime": 1548148948772,
+            "contentHash": "b27eba33ba4f351b2366ebd8b58d746fb63865a4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountTriggerHandler.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\AccountTriggerHandler.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948775,
+            "changeTime": 1548148948775,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactory.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactory.cls",
+            "isDirectory": false,
+            "size": 2033,
+            "modifiedTime": 1548150629533,
+            "changeTime": 1548150629547,
+            "contentHash": "1c1c941c75a5572a87ad2d629c8ede56f16e250e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactory.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactory.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948791,
+            "changeTime": 1548148948791,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactoryTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactoryTest.cls",
+            "isDirectory": false,
+            "size": 3408,
+            "modifiedTime": 1548150629490,
+            "changeTime": 1548150629504,
+            "contentHash": "2c36aaeab5b941e801c25c97d490d0c01a0cce88",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactoryTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\ClassFactoryTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948806,
+            "changeTime": 1548148948806,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\CustomException.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\CustomException.cls",
+            "isDirectory": false,
+            "size": 68,
+            "modifiedTime": 1548148948818,
+            "changeTime": 1548148948818,
+            "contentHash": "d982ec0f006dfdd9d40ddd8c4e0755d19d0f5895",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\CustomException.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\CustomException.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948821,
+            "changeTime": 1548148948821,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxy.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxy.cls",
+            "isDirectory": false,
+            "size": 128,
+            "modifiedTime": 1548148948832,
+            "changeTime": 1548148948832,
+            "contentHash": "880a11a63affa390891fb9086718dbcc69754919",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxy.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxy.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948834,
+            "changeTime": 1548148948834,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxyTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxyTest.cls",
+            "isDirectory": false,
+            "size": 410,
+            "modifiedTime": 1548148948843,
+            "changeTime": 1548148948843,
+            "contentHash": "147dff2ee94e12f749661868fad3e6784be4ebca",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxyTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\DatabaseProxyTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948846,
+            "changeTime": 1548148948846,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapController.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapController.cls",
+            "isDirectory": false,
+            "size": 4170,
+            "modifiedTime": 1548148948858,
+            "changeTime": 1548148948858,
+            "contentHash": "3e70cae6ed915a25e557d47f2fa3d9c7cb2a8896",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948863,
+            "changeTime": 1548148948863,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapControllerTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapControllerTest.cls",
+            "isDirectory": false,
+            "size": 7047,
+            "modifiedTime": 1548148948874,
+            "changeTime": 1548148948874,
+            "contentHash": "7280ed2ecfb578d577c1030490caa972080903cc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948877,
+            "changeTime": 1548148948877,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapService.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapService.cls",
+            "isDirectory": false,
+            "size": 658,
+            "modifiedTime": 1548150629510,
+            "changeTime": 1548150629522,
+            "contentHash": "954dd0c111bb09e951d944b5b6ffd6a8e52f80e3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapService.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\MapService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948888,
+            "changeTime": 1548148948888,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorController.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorController.cls",
+            "isDirectory": false,
+            "size": 879,
+            "modifiedTime": 1548151793632,
+            "changeTime": 1548151793646,
+            "contentHash": "38ce3e5ce87617a5fa0f36abfca533cba27d9b1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorController.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorController.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948904,
+            "changeTime": 1548148948904,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorControllerTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorControllerTest.cls",
+            "isDirectory": false,
+            "size": 149,
+            "modifiedTime": 1548148948917,
+            "changeTime": 1548148948917,
+            "contentHash": "c4bf60fccd07b03da5df309193bef79024ec4524",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorControllerTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorControllerTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948919,
+            "changeTime": 1548148948919,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorService.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorService.cls",
+            "isDirectory": false,
+            "size": 61,
+            "modifiedTime": 1548148948929,
+            "changeTime": 1548148948929,
+            "contentHash": "7814eb0b8e633bba2d439ed4b8a90fa409570a6b",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorService.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorService.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948934,
+            "changeTime": 1548148948934,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorServiceTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorServiceTest.cls",
+            "isDirectory": false,
+            "size": 146,
+            "modifiedTime": 1548148948943,
+            "changeTime": 1548148948943,
+            "contentHash": "7510a1c5472fe2ad911524c507b2e9dd0e380dba",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorServiceTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\OptimalRouteGeneratorServiceTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148948947,
+            "changeTime": 1548148948947,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilder.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilder.cls",
+            "isDirectory": false,
+            "size": 38485,
+            "modifiedTime": 1548148948958,
+            "changeTime": 1548148948958,
+            "contentHash": "c61c56606ff4f4000e3a05d25aaa1c3d1d4b0b04",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilder.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilder.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1548148948971,
+            "changeTime": 1548148948971,
+            "contentHash": "0a15b49880adb4316e2657cfbee30a236c1592e4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilderTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilderTest.cls",
+            "isDirectory": false,
+            "size": 29681,
+            "modifiedTime": 1548148948982,
+            "changeTime": 1548148948982,
+            "contentHash": "8013a452139d68cb60c945b2cf29354ceb35a593",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilderTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\QueryBuilderTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1548148948992,
+            "changeTime": 1548148948992,
+            "contentHash": "5dba4d8d1d7ec0e924d941c2ab6e8f8963f526c1",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParser.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParser.cls",
+            "isDirectory": false,
+            "size": 647,
+            "modifiedTime": 1548148949002,
+            "changeTime": 1548148949002,
+            "contentHash": "3753954d3d122461da9d3fbd3c7489692a6d8959",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParser.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParser.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148949004,
+            "changeTime": 1548148949004,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParserTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParserTest.cls",
+            "isDirectory": false,
+            "size": 525,
+            "modifiedTime": 1548148949015,
+            "changeTime": 1548148949015,
+            "contentHash": "294fe82101d9a90850701f8eb2e102c38bf2cd5c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParserTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StackTraceParserTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148949017,
+            "changeTime": 1548148949017,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StubContainer.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StubContainer.cls",
+            "isDirectory": false,
+            "size": 2403,
+            "modifiedTime": 1548148949030,
+            "changeTime": 1548148949030,
+            "contentHash": "b486b0dad62d77ca5b1689dd251a23c4d024dcf5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StubContainer.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\StubContainer.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148949032,
+            "changeTime": 1548148949032,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactory.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactory.cls",
+            "isDirectory": false,
+            "size": 2749,
+            "modifiedTime": 1548149769233,
+            "changeTime": 1548149769255,
+            "contentHash": "0b502d0cba89793d94dd0f66c119212de24d695d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactory.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactory.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148949044,
+            "changeTime": 1548148949044,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactoryTest.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactoryTest.cls",
+            "isDirectory": false,
+            "size": 384,
+            "modifiedTime": 1548148949054,
+            "changeTime": 1548148949054,
+            "contentHash": "f0729544aa7d10898928e49088a679bcdb7d0511",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactoryTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TestDataFactoryTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 173,
+            "modifiedTime": 1548148949057,
+            "changeTime": 1548148949057,
+            "contentHash": "fad34b8ce95e0755253eccecec987f1353719773",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler.cls",
+            "isDirectory": false,
+            "size": 7170,
+            "modifiedTime": 1548148949070,
+            "changeTime": 1548148949070,
+            "contentHash": "fec7fe5a341233a0f35dac4bb51a057f7e8f22b9",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1548148949072,
+            "changeTime": 1548148949072,
+            "contentHash": "0a15b49880adb4316e2657cfbee30a236c1592e4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler_Test.cls",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler_Test.cls",
+            "isDirectory": false,
+            "size": 8466,
+            "modifiedTime": 1548148949083,
+            "changeTime": 1548148949083,
+            "contentHash": "38a583d20e8c68be7a6ba0bb59b6051eac04905e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler_Test.cls-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\classes\\TriggerHandler_Test.cls-meta.xml",
+            "isDirectory": false,
+            "size": 179,
+            "modifiedTime": 1548148949087,
+            "changeTime": 1548148949087,
+            "contentHash": "0a15b49880adb4316e2657cfbee30a236c1592e4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949140,
+            "changeTime": 1548148949140,
+            "contentHash": "80df7f2208e1b196950d3c4845afcf0b9254f63c",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI.cspTrustedSite-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI.cspTrustedSite-meta.xml",
+            "isDirectory": false,
+            "size": 211,
+            "modifiedTime": 1548148949097,
+            "changeTime": 1548148949097,
+            "contentHash": "5fe88840154bf97b676b05398b02f14147cd9c16",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_A.cspTrustedSite-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_A.cspTrustedSite-meta.xml",
+            "isDirectory": false,
+            "size": 213,
+            "modifiedTime": 1548148949107,
+            "changeTime": 1548148949107,
+            "contentHash": "ce1e7824a2ebf5171ecaa2dd747c8fa6d5143f79",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_B.cspTrustedSite-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_B.cspTrustedSite-meta.xml",
+            "isDirectory": false,
+            "size": 213,
+            "modifiedTime": 1548148949120,
+            "changeTime": 1548148949120,
+            "contentHash": "7e03b3eacff2f75e16bfc1aa491d86ba9e284fa5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_C.cspTrustedSite-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_C.cspTrustedSite-meta.xml",
+            "isDirectory": false,
+            "size": 213,
+            "modifiedTime": 1548148949131,
+            "changeTime": 1548148949131,
+            "contentHash": "ed7409620cd3c4955581e4a8ad1939949bdb677b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_D.cspTrustedSite-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\cspTrustedSites\\TomTomAPI_D.cspTrustedSite-meta.xml",
+            "isDirectory": false,
+            "size": 213,
+            "modifiedTime": 1548148949140,
+            "changeTime": 1548148949140,
+            "contentHash": "37157ff9640c20306f76b1e7c32952506799d495",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\flexipages",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\flexipages",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949150,
+            "changeTime": 1548148949150,
+            "contentHash": "84ae45b14ce04fbcb63fa653277ce669fbb307ea",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\flexipages\\Account_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 6417,
+            "modifiedTime": 1548148949152,
+            "changeTime": 1548148949152,
+            "contentHash": "ecb2398a578c3778a6b3d53c1c86e612913994bb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\labels",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\labels",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949163,
+            "changeTime": 1548148949163,
+            "contentHash": "c3835cc038e1e9f66a66938c26f39887d32c77d8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\labels\\CustomLabels.labels-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\labels\\CustomLabels.labels-meta.xml",
+            "isDirectory": false,
+            "size": 1767,
+            "modifiedTime": 1548148949164,
+            "changeTime": 1548148949164,
+            "contentHash": "f5ac99b0559a381529350a516b63601ec0c3ab89",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\layouts",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949172,
+            "changeTime": 1548148949172,
+            "contentHash": "b2aa44986320a18245301bea220f7fe3f37f55d0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\layouts\\Account-Account Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 16337,
+            "modifiedTime": 1548148949175,
+            "changeTime": 1548148949175,
+            "contentHash": "c7489cc5510b86df71a2f959e254af31dba3297d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949681,
+            "changeTime": 1548148949681,
+            "contentHash": "dc1730918be312b4dc8ee3fb492c0342541df71e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949194,
+            "changeTime": 1548148949194,
+            "contentHash": "82a5078765c2f1122397f2a823a7250f80f7bbdb",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\Account.object-meta.xml",
+            "isDirectory": false,
+            "size": 4014,
+            "modifiedTime": 1548148949194,
+            "changeTime": 1548148949194,
+            "contentHash": "ef6a31c5ce481852e8a2350773458254cfae908d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949679,
+            "changeTime": 1548148949679,
+            "contentHash": "fc084546f56879d9a97e6e4367f2abae2a1035f3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\AccountNumber.field-meta.xml",
+            "isDirectory": false,
+            "size": 207,
+            "modifiedTime": 1548148949203,
+            "changeTime": 1548148949203,
+            "contentHash": "3c124b31608f563ada6bd99255726d46083db218",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\AccountSource.field-meta.xml",
+            "isDirectory": false,
+            "size": 234,
+            "modifiedTime": 1548148949216,
+            "changeTime": 1548148949216,
+            "contentHash": "384a972462fde81e73175117ecdc791f0f447eb8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\AnnualRevenue.field-meta.xml",
+            "isDirectory": false,
+            "size": 207,
+            "modifiedTime": 1548148949230,
+            "changeTime": 1548148949230,
+            "contentHash": "555ee7bd88d189b9ef381e5f732e92c7f66516b9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\BillingAddress.field-meta.xml",
+            "isDirectory": false,
+            "size": 208,
+            "modifiedTime": 1548148949245,
+            "changeTime": 1548148949245,
+            "contentHash": "17f39d3667425e543c3f25231fd397a70b4c3b9e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\CleanStatus.field-meta.xml",
+            "isDirectory": false,
+            "size": 205,
+            "modifiedTime": 1548148949256,
+            "changeTime": 1548148949256,
+            "contentHash": "edc7848a5bfa75f14a6e69ef93874fda083d2d6e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\DandbCompanyId.field-meta.xml",
+            "isDirectory": false,
+            "size": 233,
+            "modifiedTime": 1548148949268,
+            "changeTime": 1548148949268,
+            "contentHash": "70b0e8552bc33c67620059d19329d520a97ac4c9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Description.field-meta.xml",
+            "isDirectory": false,
+            "size": 205,
+            "modifiedTime": 1548148949279,
+            "changeTime": 1548148949279,
+            "contentHash": "9329aa8a81fcb301652178deb8e75487ad0c4beb",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\DunsNumber.field-meta.xml",
+            "isDirectory": false,
+            "size": 204,
+            "modifiedTime": 1548148949290,
+            "changeTime": 1548148949290,
+            "contentHash": "ff7e7e4ced2ce57ee28410bc5d863342fb92fcdd",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Fax.field-meta.xml",
+            "isDirectory": false,
+            "size": 197,
+            "modifiedTime": 1548148949374,
+            "changeTime": 1548148949374,
+            "contentHash": "ef6483feeca8d8a846bd11841959ed7170e1b20e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Industry.field-meta.xml",
+            "isDirectory": false,
+            "size": 229,
+            "modifiedTime": 1548148949436,
+            "changeTime": 1548148949436,
+            "contentHash": "9384f2c13a43a79de2909dc183d92bd6ca481311",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Jigsaw.field-meta.xml",
+            "isDirectory": false,
+            "size": 200,
+            "modifiedTime": 1548148949458,
+            "changeTime": 1548148949458,
+            "contentHash": "d259680afeb61a4c49142d0f2224bf4d2d865a63",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\NaicsCode.field-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1548148949474,
+            "changeTime": 1548148949474,
+            "contentHash": "7b674436fe553847f95a95be57b3e6303533c62d",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\NaicsDesc.field-meta.xml",
+            "isDirectory": false,
+            "size": 203,
+            "modifiedTime": 1548148949504,
+            "changeTime": 1548148949504,
+            "contentHash": "8e69fc58b200cdbdbff3aead1334d5f8b5c822c2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Name.field-meta.xml",
+            "isDirectory": false,
+            "size": 197,
+            "modifiedTime": 1548148949516,
+            "changeTime": 1548148949516,
+            "contentHash": "a348762e6f28525be0a04e0d0cefbeab5ce254ce",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\NumberOfEmployees.field-meta.xml",
+            "isDirectory": false,
+            "size": 211,
+            "modifiedTime": 1548148949526,
+            "changeTime": 1548148949526,
+            "contentHash": "4967174bc7f968f24453f9b77a016534700b378f",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\OperatingHoursId.field-meta.xml",
+            "isDirectory": false,
+            "size": 235,
+            "modifiedTime": 1548148949538,
+            "changeTime": 1548148949538,
+            "contentHash": "d2112777e8212058f308b2c21858daade2a69848",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\OwnerId.field-meta.xml",
+            "isDirectory": false,
+            "size": 225,
+            "modifiedTime": 1548148949552,
+            "changeTime": 1548148949552,
+            "contentHash": "b7d412be3216cb9efc01a1a73b1be18ada7a928e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Ownership.field-meta.xml",
+            "isDirectory": false,
+            "size": 230,
+            "modifiedTime": 1548148949560,
+            "changeTime": 1548148949560,
+            "contentHash": "dfad41aedec815c5c3dae8f8b8e0c6b5722420b9",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\ParentId.field-meta.xml",
+            "isDirectory": false,
+            "size": 230,
+            "modifiedTime": 1548148949571,
+            "changeTime": 1548148949571,
+            "contentHash": "e34e032532c659aa07e7426065371878014e059c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Phone.field-meta.xml",
+            "isDirectory": false,
+            "size": 199,
+            "modifiedTime": 1548148949584,
+            "changeTime": 1548148949584,
+            "contentHash": "b19da99a12a24159f0bb108f6ba8c50b1ee89310",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Rating.field-meta.xml",
+            "isDirectory": false,
+            "size": 227,
+            "modifiedTime": 1548148949591,
+            "changeTime": 1548148949591,
+            "contentHash": "2a8a36584fa7d932be50778cf559524c9863e381",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\ShippingAddress.field-meta.xml",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1548148949600,
+            "changeTime": 1548148949600,
+            "contentHash": "ebd283f5e30908caead295aa176669c149556ebe",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Sic.field-meta.xml",
+            "isDirectory": false,
+            "size": 197,
+            "modifiedTime": 1548148949608,
+            "changeTime": 1548148949608,
+            "contentHash": "e4b36658d95bae01e002509243463bdd5ae80aa4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\SicDesc.field-meta.xml",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1548148949620,
+            "changeTime": 1548148949620,
+            "contentHash": "0e581720754872ad2e92c90974c4788885d6ff97",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Site.field-meta.xml",
+            "isDirectory": false,
+            "size": 198,
+            "modifiedTime": 1548148949631,
+            "changeTime": 1548148949631,
+            "contentHash": "7771715ac34684248bb8bad4005b8b08dadd1d34",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\TickerSymbol.field-meta.xml",
+            "isDirectory": false,
+            "size": 206,
+            "modifiedTime": 1548148949641,
+            "changeTime": 1548148949641,
+            "contentHash": "ba538aa4c66d16bbacefa53625bf602af4e668e5",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Tradestyle.field-meta.xml",
+            "isDirectory": false,
+            "size": 204,
+            "modifiedTime": 1548148949650,
+            "changeTime": 1548148949650,
+            "contentHash": "452910fd0cb411b693b016a50ba9b45a033a1432",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Type.field-meta.xml",
+            "isDirectory": false,
+            "size": 225,
+            "modifiedTime": 1548148949659,
+            "changeTime": 1548148949659,
+            "contentHash": "e593e0cf897ea2062937ca32f4e05d3b0a9ab456",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\Website.field-meta.xml",
+            "isDirectory": false,
+            "size": 201,
+            "modifiedTime": 1548148949670,
+            "changeTime": 1548148949670,
+            "contentHash": "f1e64cc04ff71ec18a27ca56b85d13c54725a904",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Account\\fields\\YearStarted.field-meta.xml",
+            "isDirectory": false,
+            "size": 205,
+            "modifiedTime": 1548148949680,
+            "changeTime": 1548148949680,
+            "contentHash": "17f1096442afb38477aaf2c160a11b9c64148b13",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949690,
+            "changeTime": 1548148949690,
+            "contentHash": "a65d8ade1c5d04292e8fb534e86dadbd6c88cbfc",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c\\Api_Key__c.object-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c\\Api_Key__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 280,
+            "modifiedTime": 1548148949689,
+            "changeTime": 1548148949689,
+            "contentHash": "f3c80c98586a36b324c4831f3c0e0d34ecd75d14",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c\\fields",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949698,
+            "changeTime": 1548148949698,
+            "contentHash": "9249f8636c03495adef6a0cc09da875ab12d8e37",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c\\fields\\Key__c.field-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\objects\\Api_Key__c\\fields\\Key__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 362,
+            "modifiedTime": 1548148949699,
+            "changeTime": 1548148949699,
+            "contentHash": "e5fae44d0e187e1884b794a683b6828d39054865",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\permissionsets",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\permissionsets",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949707,
+            "changeTime": 1548148949707,
+            "contentHash": "80b43177cd5c77b83350f9af064c9a3cf4ed43e6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\permissionsets\\P_DEV.permissionset-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\permissionsets\\P_DEV.permissionset-meta.xml",
+            "isDirectory": false,
+            "size": 207,
+            "modifiedTime": 1548148949709,
+            "changeTime": 1548148949709,
+            "contentHash": "5472004b51ea02273a30736a965d0f11dc307760",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949748,
+            "changeTime": 1548148949748,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 21487,
+            "modifiedTime": 1548148949722,
+            "changeTime": 1548148949722,
+            "contentHash": "8d97949873ef9d70cca7df397bc2ee51b0d3a57e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 7273,
+            "modifiedTime": 1548148949733,
+            "changeTime": 1548148949733,
+            "contentHash": "584ba756a6922c6022192505da9b12f7752697d7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 7273,
+            "modifiedTime": 1548148949735,
+            "changeTime": 1548148949735,
+            "contentHash": "584ba756a6922c6022192505da9b12f7752697d7",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "size": 7623,
+            "modifiedTime": 1548148949749,
+            "changeTime": 1548148949749,
+            "contentHash": "95d62cd1bcc58de021020bf053f90c639e07e8c2",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\settings",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\settings",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949757,
+            "changeTime": 1548148949757,
+            "contentHash": "e364e4d3c503804e0ca6d6bb92ab9cc0ceac2327",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\settings\\Security.settings-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\settings\\Security.settings-meta.xml",
+            "isDirectory": false,
+            "size": 2560,
+            "modifiedTime": 1548148949758,
+            "changeTime": 1548148949758,
+            "contentHash": "604c47ec39e35db0ba4b08f590648cacc8253080",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949791,
+            "changeTime": 1548148949791,
+            "contentHash": "0c4dbe14c6d65df716332df3cb53927cc2408ac3",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\AuraTestSuite.resource",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\AuraTestSuite.resource",
+            "isDirectory": false,
+            "size": 346,
+            "modifiedTime": 1548148949770,
+            "changeTime": 1548148949770,
+            "contentHash": "ee5bafb5c7b04a3a1dc567a78ab3389a1408e784",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\AuraTestSuite.resource-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\AuraTestSuite.resource-meta.xml",
+            "isDirectory": false,
+            "size": 288,
+            "modifiedTime": 1548148949780,
+            "changeTime": 1548148949780,
+            "contentHash": "1bb7660e41a8e38480c7c88ac38104bfa9bf771b",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949849,
+            "changeTime": 1548148949849,
+            "contentHash": "974934d727398decc88a84b4561153e2e1fec239",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\elements.css",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\elements.css",
+            "isDirectory": false,
+            "size": 11088,
+            "modifiedTime": 1548148949800,
+            "changeTime": 1548148949800,
+            "contentHash": "761369b0334221c9a5445835734aa5cd73e86962",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\img",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\img",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949822,
+            "changeTime": 1548148949822,
+            "contentHash": "e13e0cbc6058861217a60eb03ed9e19f24486654",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\img\\end.png",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\img\\end.png",
+            "isDirectory": false,
+            "size": 1626,
+            "modifiedTime": 1548148949814,
+            "changeTime": 1548148949814,
+            "contentHash": "908d357b254e165777e81e82a0c5a9cd770dec37",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\img\\start.png",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\img\\start.png",
+            "isDirectory": false,
+            "size": 1215,
+            "modifiedTime": 1548148949824,
+            "changeTime": 1548148949824,
+            "contentHash": "977ffef1132fa9042ed81098e7980a75da2185ee",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\index.html",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\index.html",
+            "isDirectory": false,
+            "size": 2385,
+            "modifiedTime": 1548148949836,
+            "changeTime": 1548148949836,
+            "contentHash": "b473309434b8ccebc367e989452bbdb286b5daf0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\js",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\js",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949845,
+            "changeTime": 1548148949845,
+            "contentHash": "ef25993a95b9ceb009478db94f161d08a2859461",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\js\\form.js",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\js\\form.js",
+            "isDirectory": false,
+            "size": 1548,
+            "modifiedTime": 1548148949847,
+            "changeTime": 1548148949847,
+            "contentHash": "bc3c3f20f885c448f9427db515998884abcfbd14",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\sdk",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\sdk",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949917,
+            "changeTime": 1548148949917,
+            "contentHash": "e929aa747077b95f66438b4a18424cb8fafe432a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\sdk\\map.css",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\sdk\\map.css",
+            "isDirectory": false,
+            "size": 399897,
+            "modifiedTime": 1548148949865,
+            "changeTime": 1548148949865,
+            "contentHash": "7c1f61c16997b6fa3dc51890572b6220f22c1938",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\sdk\\tomtom.min.js",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage\\sdk\\tomtom.min.js",
+            "isDirectory": false,
+            "size": 1683554,
+            "modifiedTime": 1548148949919,
+            "changeTime": 1548148949919,
+            "contentHash": "2cffceb928dc49f9267b1b9104c54ce5b6249347",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage.resource-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\staticresources\\TomTomPackage.resource-meta.xml",
+            "isDirectory": false,
+            "size": 320,
+            "modifiedTime": 1548148949790,
+            "changeTime": 1548148949790,
+            "contentHash": "6717205186d8102caae13a9df042eb3aa9d93c00",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\tabs",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148949930,
+            "changeTime": 1548148949930,
+            "contentHash": "ef3c5d7aae36b3e43aebee6df087f7093f89b6cd",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\tabs\\Optimal_Route_Generator.tab-meta.xml",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV\\force-app\\main\\default\\tabs\\Optimal_Route_Generator.tab-meta.xml",
+            "isDirectory": false,
+            "size": 289,
+            "modifiedTime": 1548148949931,
+            "changeTime": 1548148949931,
+            "contentHash": "bf944b58757dc9595e9a1ec46c223c5d4fc1ff9c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV",
+        {
+            "sourcePath": "C:\\SF\\projects\\SFDX_JENKINS\\sfdx-jenkins-P_DEV",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1548148948452,
+            "changeTime": 1548148948452,
+            "contentHash": "f65e78d7c5ff45fafea4d09c144d092f75fe785a",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

@@ -20,5 +20,6 @@ public with sharing class MapService {
 
 		List<Account> accounts = new DatabaseProxy().query(query);
 
+		/* todo: complete the logic*/
 	}
 }

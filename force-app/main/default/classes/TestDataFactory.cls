@@ -85,7 +85,6 @@ public class TestDataFactory {
 		return singleMessage;
 	}
 
-
 	private static String getRandomString() {
 
 		return getRandomString(null);

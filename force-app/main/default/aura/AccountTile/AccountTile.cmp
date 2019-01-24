@@ -11,8 +11,8 @@
 					{!v.record.Name}
 			</div>
 			<div class="phone_industry_container">
-				{!v.record.Phone}
-				{!v.record.Industry}
+				<div class="phone_field_container">{!v.record.Phone}</div>
+				<div class="industry_field_container">{!v.record.Industry}</div>
 			</div>
 		</div>
 	</div>

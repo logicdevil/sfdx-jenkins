@@ -7,19 +7,34 @@
 	font-size: 1.25rem;
 }
 
-.THIS .phone_email_container {
+.THIS .phone_industry_container {
+	width: 30%;
+	font-size: 0.9rem;
 	display: block;
 	text-align: right;
-	margin: auto 2% auto auto;
+	margin: auto 2% auto 5%;
+}
+
+.THIS .phone_field_container {
+	display: flex;
+	color: #333333;
+}
+
+.THIS .industry_field_container {
+	display: flex;
+	color: chocolate;
 }
 
 .THIS .description_button_container {
+	width: 10%;
 	display: flex;
 	margin: auto 0 auto 2%;
 }
 
 .THIS .name_container {
+	width: 60%;
 	color: rgb(40, 40, 40);
 	display: flex;
+	text-align: left;
 	margin: auto 2% auto 4%;;
 }

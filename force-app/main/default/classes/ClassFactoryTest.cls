@@ -5,13 +5,7 @@ private with sharing class ClassFactoryTest {
 
 	@IsTest
 	static void setup(){
-		String s = JSON.serialize((DatabaseProxy)Test.createStub(DatabaseProxy.class, new StubContainer.MapControllerTest_DatabaseProxyStub('asd')));
 
-		System.debug(s);
-
-		DatabaseProxy proxy = (DatabaseProxy)JSON.deserialize(s, DatabaseProxy.class);
-
-		System.debug(proxy.query('asd'));
 	}
 
 	@IsTest
