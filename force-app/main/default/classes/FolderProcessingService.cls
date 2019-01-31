@@ -1,38 +1,42 @@
 public with sharing class FolderProcessingService {
 
-//	Map<String, String> errorsByEntityIds;
-//	Map<String, ResponseEntityTest> responsesByFoldersIds;
-//	RecordType recordType;
-//
-//	public FolderProcessingService() {
-//
-//		this.errorsByEntityIds = new Map<String, String>();
-//		this.response = new List<ResponseEntityTest>();
-//		this.recordType = [SELECT Id FROM RecordType WHERE DeveloperName = 'Test_RT' LIMIT 1][0];
-//	}
-//
-//	public String processRequestBody(String requestBody) {
-//
-//		try {
-//
-//			List<FolderEntityTest> folders = (List<FolderEntityTest>) JSON.deserialize(requestBody, List<FolderEntityTest>.class);
-//			Map<String, FolderEntityTest> foldersByIds = new Map<String, FolderEntityTest>();
-//			List<Id> casesIds = this.createCases(folders);
-//
-//			if(casesIds.size() != folders.size()) {
-//				/*todo: do smth*/
-//			}
-//
-//			for (Integer i = 0; i < folders.size(); i++) {
-//
-//				FolderEntityTest singleFolder = folders[i];
-//				responsesByFoldersIds.put(singleFolder.folder_id, this.processFolder(singleFolder, casesIds[i]));
-//
-//				if(casesIds[i] != null) {
-//					foldersByIds.put(singleFolder.folder_id, singleFolder);
-//				}
-//			}
-//
+	public static final String EMAIL_TYPE_FILE_NAME = 'Email';
+
+	private RecordType recordType;
+	private String responseText;
+
+	public FolderProcessingService() {
+		this.recordType = [SELECT Id FROM RecordType WHERE DeveloperName = 'Test_RT' LIMIT 1][0];
+	}
+
+	public String processRequestBody(String requestBody) {
+
+		try {
+
+			List<FolderWrapper> folderWrappers = (List<FolderWrapper>) JSON.deserialize(requestBody, List<FolderWrapper>.class);
+			List<FolderProcessor> folderProcessors = this.getFolderProcessors(folderWrappers);
+			List<FolderProcessor> processedFolders = new List<FolderProcessor>();
+
+			folderProcessors = this.createCases(folderProcessors);
+			folderProcessors = this.filterProcessedFolders(folderProcessors, processedFolders);
+			if(folderProcessors.isEmpty()) {
+				this.prepareResponse(processedFolders);
+			}
+
+			folderProcessors = this.extractEmailTypeFiles(folderProcessors);
+			folderProcessors = this.filterProcessedFolders(folderProcessors, processedFolders);
+			if(folderProcessors.isEmpty()) {
+				this.prepareResponse(processedFolders);
+			}
+
+			folderProcessors = this.createEmailFiles(folderProcessors);
+			folderProcessors = this.filterProcessedFolders(folderProcessors, processedFolders);
+			if(folderProcessors.isEmpty()) {
+				this.prepareResponse(processedFolders);
+			}
+
+
+
 //			List<FileEntityTest> emailFiles = new List<FileEntityTest>();
 //
 //			for (String folderId : foldersByIds.keySet()) {
@@ -56,43 +60,109 @@ public with sharing class FolderProcessingService {
 //
 //
 //
-//		} catch (JSONException jsonException) {
-//			this.processParsingError();
-//		}
-//
-//		return this.buildResponseJSON();
-//	}
-//
-//	private List<Id> createCases(List<FolderEntityTest> folders) {
-//
-//		List<Case> cases = new List<Case>();
-//		List<Id> casesIds = new List<Id>();
-//
-//		for(FolderEntityTest folder : folders) {
-//			cases.add(this.createCase(folder));
-//		}
-//
-//		List<Database.UpsertResult> results = DatabaseProxy.upsertRecords(cases);
-//		for (Integer i = 0; i < results.size(); i++) {
-//			if(results[i].success) {
-//				casesIds.add(results[i].id);
-//			} else {
-//				casesIds.add(null);
-//			}
-//		}
-//
-//		return casesIds;
-//	}
-//
-//	private Case createCase(FolderEntityTest folder) {
-//
-//		Case singleCase = new Case();
-//		singleCase.External_Id__c = folder.folder_id;
-//		singleCase.Status = 'New';
-//		singleCase.RecordTypeId = recordType.Id;
-//		return singleCase;
-//	}
-//
+		} catch (JSONException jsonException) {
+			return this.processParsingError();
+		}
+
+		return null;// this.buildResponseJSON();
+	}
+
+	private List<FolderProcessor> createCases(List<FolderProcessor> folderProcessors) {
+
+		List<Case> cases = new List<Case>();
+
+		for(FolderProcessor folderProcessor : folderProcessors) {
+			cases.add(this.createCase(folderProcessor));
+		}
+
+		DatabaseProxy databaseProxy = (DatabaseProxy) ClassFactory.newInstance(DatabaseProxy.class);
+		List<Database.UpsertResult> results = databaseProxy.upsertRecords_Case(cases, Case.External_Id__c, false);
+
+		for (Integer i = 0; i < results.size(); i++) {
+			if(results[i].success) {
+				folderProcessors[i].setCaseId(results[i].getId());
+			} else {
+				folderProcessors[i].setCaseError(results[i].getErrors());
+			}
+		}
+
+		return folderProcessors;
+	}
+
+	private Case createCase(FolderProcessor folderProcessor) {
+
+		Case singleCase = new Case();
+		singleCase.External_Id__c = folderProcessor.getFolderId();
+		singleCase.Status = 'New';
+		singleCase.RecordTypeId = recordType.Id;
+		return singleCase;
+	}
+
+	private List<FolderProcessor> getFolderProcessors(List<FolderWrapper> folders) {
+
+		List<FolderProcessor> processors = new List<FolderProcessor>();
+		for(FolderWrapper folder : folders) {
+			processors.add(new FolderProcessor(folder));
+		}
+		return processors;
+	}
+
+	private List<FolderProcessor> filterProcessedFolders(List<FolderProcessor> folderProcessors, List<FolderProcessor> processedFolders) {
+
+		List<FolderProcessor> notProcessedFolders = new List<FolderProcessor>();
+
+		for(FolderProcessor processor : folderProcessors) {
+			if(processor.isProcessed()) {
+				processedFolders.add(processor);
+			} else {
+				notProcessedFolders.add(processor);
+			}
+		}
+		return notProcessedFolders;
+	}
+
+	private List<FolderProcessor> extractEmailTypeFiles(List<FolderProcessor> folderProcessors) {
+
+		for(FolderProcessor processor : folderProcessors) {
+			processor.extractEmailTypeFile();
+		}
+		return folderProcessors;
+	}
+
+	private List<FolderProcessor> createEmailFiles(List<FolderProcessor> folderProcessors) {
+
+		List<Custom_File__c> files = new List<Custom_File__c>();
+
+		for(FolderProcessor processor : folderProcessors) {
+			files.add(this.createFile(processor.getEmailFile()));
+		}
+
+		DatabaseProxy databaseProxy = (DatabaseProxy) ClassFactory.newInstance(DatabaseProxy.class);
+		List<Database.UpsertResult> results = databaseProxy.upsertRecords_Custom_File(files, Custom_File__c.External_Id__c, false);
+
+		for (Integer i = 0; i < results.size(); i++) {
+			if(results[i].isSuccess()) {
+				folderProcessors[i].setEmailTypeFileSFId(results[i].getId());
+			} else {
+				folderProcessors[i].setEmailTypeFileError(results[i].getErrors());
+			}
+		}
+
+		return folderProcessors;
+	}
+
+	private Custom_File__c createFile(FileWrapper fileWrapper) {
+
+		Custom_File__c file = new Custom_File__c();
+		file.Type__c = fileWrapper.getType();
+		file.External_Id__c = fileWrapper.getFileId();
+		return file;
+	}
+
+	private void prepareResponse(List<FolderProcessor> folderProcessors) {
+
+	}
+
 //	private ResponseEntityTest processFolder(FolderEntityTest folder, String caseId) {
 //
 //		Map<String, String> folderLevelErrorsByEntityIds = new Map<String, String>();
@@ -116,7 +186,7 @@ public with sharing class FolderProcessingService {
 //		this.responsesByFoldersIds.get(entityId).addError(new ResponseEntityTest.ResponseFileEntityTest(entityId, Label.Missing_Email_Type_Error));
 //	}
 //
-//	private void processParsingError() {
-//		errorsByEntityIds.put('ParsingError', Label.Parsing_Error);
-//	}
+	private String processParsingError() {
+		return Label.Parsing_Error;
+	}
 }
